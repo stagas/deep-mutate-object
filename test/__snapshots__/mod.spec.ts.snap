@@ -1,18 +1,4 @@
-
-exports[`deepMutate(obj, walkFn) simple 1`] = `
-Object {
-  "foozoo": "barland",
-}
-`;
-
-exports[`deepMutate(obj, walkFn) deep 1`] = `
-Object {
-  "foozoo": "barland",
-  "somezoo": Object {
-    "otherzoo": "deeperland",
-  },
-}
-`;
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`deepMutate(obj, walkFn) array 1`] = `
 Object {
@@ -26,5 +12,20 @@ Object {
       },
     ],
   },
+}
+`;
+
+exports[`deepMutate(obj, walkFn) deep 1`] = `
+Object {
+  "foozoo": "barland",
+  "somezoo": Object {
+    "otherzoo": "deeperland",
+  },
+}
+`;
+
+exports[`deepMutate(obj, walkFn) simple 1`] = `
+Object {
+  "foozoo": "barland",
 }
 `;

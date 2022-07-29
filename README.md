@@ -1,5 +1,5 @@
 <h1>
-deep-mutate-object <a href="https://npmjs.org/package/deep-mutate-object"><img src="https://img.shields.io/badge/npm-v1.0.0-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-9-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/deep-mutate-object@1.0.0/dist/deep-mutate-object.min.js"><img src="https://img.shields.io/badge/brotli-173b-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
+deep-mutate-object <a href="https://npmjs.org/package/deep-mutate-object"><img src="https://img.shields.io/badge/npm-v1.0.1-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-9-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/deep-mutate-object@1.0.1/dist/deep-mutate-object.min.js"><img src="https://img.shields.io/badge/brotli-173b-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
 </h1>
 
 <p></p>
@@ -15,30 +15,6 @@ Deep traverse walk and mutate object keys and/or values.
 <code>yarn add deep-mutate-object</code>
 </td></tr></table>
 </h4>
-
-## Examples
-
-<details id="example$node" title="node" open><summary><span><a href="#example$node">#</a></span>  <code><strong>node</strong></code></summary>  <ul>    <details id="source$node" title="node source code" open><summary><span><a href="#source$node">#</a></span>  <code><strong>view source</strong></code></summary>  <a href="example/node.ts">example/node.ts</a>  <p>
-
-```ts
-import { add } from 'deep-mutate-object'
-
-console.log(add(1, 2))
-```
-
-</p>
-</details></ul></details><details id="example$web" title="web" open><summary><span><a href="#example$web">#</a></span>  <code><strong>web</strong></code></summary>  <ul>    <details id="source$web" title="web source code" open><summary><span><a href="#source$web">#</a></span>  <code><strong>view source</strong></code></summary>  <a href="example/web.ts">example/web.ts</a>  <p>
-
-```ts
-import { add } from 'deep-mutate-object'
-
-const main = document.querySelector('main')!
-
-main.innerHTML = `<h1>1 + 2 = ${add(1, 2)}</h1>`
-```
-
-</p>
-</details></ul></details>
 
 ## API
 
